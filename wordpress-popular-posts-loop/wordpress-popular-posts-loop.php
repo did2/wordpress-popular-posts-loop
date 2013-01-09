@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Loop Wordpress Popular Posts
+Plugin Name: Wordpress Popular Posts Loop
 Plugin URI: http://did2memo.net/
-Description: You can place popular posts ranking "loop" anywhere on your template using  lwpp_popular_posts_ids().
+Description: You can place popular posts ranking "loop" anywhere on your template using  wppl_popular_posts_ids().
 Version: 1.0.0
 Author: did2
 Author URI: http://did2memo.net/
@@ -15,7 +15,7 @@ License: GPL2
  * @param array $atts see sample template files.
  *
  */
-function lwpp_get_popular_posts_ids($atts) {	
+function wppl_get_popular_posts_ids($atts) {	
 	global $wpdb;
 
 	/* begin from wpp_shortcode */

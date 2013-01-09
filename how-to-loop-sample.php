@@ -1,6 +1,6 @@
 <?php
-	// get_popular_posts returns a list of post ids.
-	$mostpopular_ids = get_popular_posts_list( array(
+	// wppl_get_popular_posts returns a list of post ids.
+	$mostpopular_ids = wppl_get_popular_posts_list( array(
 		'range' => 'daily',
 		'order_by' => 'views',
 		'limit' => 5,
